@@ -2,7 +2,7 @@ module.exports = {
     website: {
         assets: "./book",
         js: [
-            "expandable-chapters.js"
+            "multibyte-fragment-identifire-fix.js"
         ]
     }
 };
