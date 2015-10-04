@@ -1,0 +1,22 @@
+{
+  "name": "gitbook-plugin-mutibyte-fragment-identifire-fix",
+  "version": "0.0.1",
+  "description": "This Gitbook plug-ins, in Markdown of Gitbook, to improve the problem of fragment identifier of the multi-byte is not percent-encoded.",
+  "main": "index.js",
+  "engines": {
+    "gitbook": ">=0.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoshidax/gitbook-plugin-mutibyte-fragment-identifire-fix.git"
+  },
+  "keywords": [
+    "gitbook"
+  ],
+  "author": "yoshidax",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yoshidax/gitbook-plugin-mutibyte-fragment-identifire-fix/issues"
+  },
+  "homepage": "https://github.com/yoshidax/gitbook-plugin-mutibyte-fragment-identifire-fix#readme"
+}
