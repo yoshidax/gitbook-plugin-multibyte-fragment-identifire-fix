@@ -12,7 +12,7 @@ module.exports = {
             sections.forEach(function(section) {
 
                 var $ = cheerio.load(section.content);
-                $('a[href*=#]').each(function(){ 
+                $('a[href^=#]').each(function(){ 
                     var href = $(this).attr('href');
                     var offset = href.indexOf('#') + 1;
                     var markdSectionId = encodeURI(
