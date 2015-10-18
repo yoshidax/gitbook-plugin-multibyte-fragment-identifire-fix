@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-multibyte-fragment-identifire-fix",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "you can write a fragment identifier as the section title by this plug-in.",
   "main": "index.js",
   "engines": {
