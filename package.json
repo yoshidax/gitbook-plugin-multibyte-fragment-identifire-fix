@@ -1,7 +1,7 @@
 {
   "name": "gitbook-plugin-multibyte-fragment-identifire-fix",
   "version": "0.0.3",
-  "description": "This Gitbook plug-ins, in Markdown of Gitbook, to improve the problem of fragment identifier of the multi-byte is not percent-encoded.",
+  "description": "you can write a fragment identifier as the section title by this plug-in.",
   "main": "index.js",
   "engines": {
     "gitbook": "*"
