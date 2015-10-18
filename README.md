@@ -24,8 +24,6 @@ of course don't work
 
 **after**
 
-your markdown: 
-
 convert to html:
 
 ```html
