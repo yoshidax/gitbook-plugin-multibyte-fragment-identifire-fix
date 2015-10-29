@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-multibyte-fragment-identifire-fix",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "you can write a fragment identifier as the section title by this plug-in.",
   "main": "index.js",
   "engines": {
@@ -21,7 +21,8 @@
   "homepage": "https://github.com/yoshidax/gitbook-plugin-multibyte-fragment-identifire-fix#readme",
   "dependencies": {
     "cheerio": "^0.19.0",
-    "lodash": "^3.10.1"
+    "lodash": "^3.10.1",
+    "semver": "^5.0.3"
   },
   "devDependencies": {
     "tsd": "^0.6.5"

@@ -34,6 +34,8 @@ convert to html:
 
 :thumbsup:
 
+**notes** : ")" can not be used unfortunately.
+
 ### How to use it?
 
 Add it to your `book.json` configuration:
