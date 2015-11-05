@@ -22,7 +22,8 @@ module.exports = {
                       markdSectionId =
                           href.slice(offset)
                               .toLowerCase()
-                              .replace(/[!-/:-@[-`{-~\s]+/g, '');
+                              .replace(/[!-/:-@[-`{-~]+/g, '')
+                              .replace(/\s+/g, '-');
           					} else {
                       markdSectionId = encodeURI(
                           href.slice(offset)
