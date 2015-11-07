@@ -22,8 +22,11 @@ module.exports = {
                       markdSectionId =
                           href.slice(offset)
                               .toLowerCase()
-                              .replace(/[!-/:-@[-`{-~]+/g, '')
-                              .replace(/\s+/g, '-');
+                              .replace(/\t/g, '    ')
+                              .replace(/[!-/:-@≠\[-`{-~]+/g, '')
+                              .replace(/ /g, '-');
+                      markdSectionId = markdSectionId[0] === '-'
+                        ? markdSectionId.slice(1) : markdSectionId
           					} else {
                       markdSectionId = encodeURI(
                           href.slice(offset)
