@@ -20,8 +20,8 @@
   },
   "homepage": "https://github.com/yoshidax/gitbook-plugin-multibyte-fragment-identifire-fix#readme",
   "dependencies": {
-    "cheerio": "^0.19.0",
-    "lodash": "^3.10.1",
+    "cheerio": "^0.20.0",
+    "lodash": "^4.17.16",
     "semver": "^5.0.3"
   },
   "devDependencies": {
